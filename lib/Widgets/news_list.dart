@@ -5,7 +5,8 @@ import 'package:newsy/models/artical_model.dart';
 import 'package:newsy/services/news_service.dart';
 
 class News extends StatelessWidget {
-  final List<ArticleModel> articles;
+  final List<ArticleModel> articles; 
+  
 
   News({super.key, required this.articles});
 
